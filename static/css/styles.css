@@ -2,7 +2,7 @@ ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    width: 200px;
+    width: 300px;
 }
 
 li {
@@ -18,6 +18,11 @@ li button {
     cursor: pointer;
     font-size: 20px;
     background: transparent;
+}
+
+.lists-wrapper, .todos-wrapper {
+    display: inline-block;
+    vertical-align: top;
 }
 
 .hidden {
